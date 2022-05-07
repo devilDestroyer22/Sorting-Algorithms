@@ -38,5 +38,5 @@ This would produce the overall results of benign count, crash count and SDC coun
 
 In order to do the same for other algorithms, use rm -rf llfi* results.txt to remove the results of insertion sort and reptead the steps above to check the fault injection trials and results for each sorting algorithm. 
 
-The sorting algorithm code was was wrutten by DaniloNovakovic and only using it for running faultinjections, and is only being referenced and tested for my final project. Thanks. 
+The sorting algorithm code was was written by DaniloNovakovic and only using it for running faultinjections, and is only being referenced and tested for my final project. Thanks. 
 
