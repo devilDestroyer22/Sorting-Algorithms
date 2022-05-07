@@ -17,6 +17,7 @@ Once cloned, the repository shows up in the terminl. (use ls to find it, and cd 
 
 3.) To run fault injections on the three sorting algorithms: 
 Compile insertion-sort.c, selection-sort.c and bubble-sort.c to readable IR:
+
 clang -emit-llvm -S *.c (Repleace the *.c with one of the three .c algorithm files).
 
 4.) Once compiled, a .ll file is produced, so use lli use one of the .ll files to see if the results were produced sucessfully. 
@@ -24,6 +25,7 @@ Upon doing so, use Instrument IR-level codes to readable IR:
 instrument --readable insertion-sort.ll to run and so and so forth for the remaining two algorithm files. 
 
 5.) Next, Run a fault-free IR:
+
 profile ./llfi/sqrt-profiling.exe
 
 6.) In order to run the random fault injections: 
