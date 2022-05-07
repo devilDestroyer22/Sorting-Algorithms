@@ -8,6 +8,7 @@ Bubble Sort: It is an algorithm, responsible for comparing the adjacent element 
 These three algorithms were used and compared them to each other, and since they have the same time complexity, it was easier to compare the algorithm and their time complexity is O(n^2). Despite being aware of each resilience, through actual experimentation would I be able to check whether each algorithm is prone to SDC errors, or which ends up crashing or which ends up becoming the most resilient of them all.  
 
 Instructions to run the code: 
+
 1.) Open Ubuntu Virtual Machine and open the terminal
 
 2.) Type: git clone https://github.com/devilDestroyer22/Sorting-Algorithms.git 
