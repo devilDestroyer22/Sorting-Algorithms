@@ -1,4 +1,3 @@
-This code was was wrutten by DaniloNovakovic and only using it for running faultinjections, and is only being referenced. Thanks. 
 
 Selection Sort: It is an algorithm responsible for finding the minimum element within an array and sorting it from the beginning. It is then sorted accordingly and arranged in a particular manner.  
 
@@ -36,4 +35,6 @@ python3 measure.py
 This would produce the overall results of benign count, crash count and SDC count. Through this, we can determin the resiliency and vulnerabilities of a sorting algorithm, and comapre the probability over a 1000 trials to the other respective algorithms. 
 
 In order to do the same for other algorithms, use rm -rf llfi* results.txt to remove the results of insertion sort and reptead the steps above to check the fault injection trials and results for each sorting algorithm. 
+
+The sorting algorithm code was was wrutten by DaniloNovakovic and only using it for running faultinjections, and is only being referenced and tested for my final project. Thanks. 
 
