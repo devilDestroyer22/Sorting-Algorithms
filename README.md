@@ -28,15 +28,18 @@ profile ./llfi/sqrt-profiling.exe
 
 6.) In order to run the random fault injections: 
 Fault Injection: run a fault-injected IR:
+
 injectfault ./llfi/sqrt-faultinjection.exe
+
 This would run a series of 1000 trials and determine whether the errors and resilience within the algorithm. 
 
 7.) Finally, after successfully running the fault injection, we use:
 Analyze FI results:
 python3 measure.py
+
 This would produce the overall results of benign count, crash count and SDC count. Through this, we can determin the resiliency and vulnerabilities of a sorting algorithm, and comapre the probability over a 1000 trials to the other respective algorithms. 
 
-In order to do the same for other algorithms, use rm -rf llfi* results.txt to remove the results of insertion sort and reptead the steps above to check the fault injection trials and results for each sorting algorithm. 
+In order to do the same for other algorithms, use rm -rf llfi* results.txt to remove the results of insertion sort and repeat the steps above to check the fault injection trials and results for each sorting algorithm. 
 
 The sorting algorithm code was was written by DaniloNovakovic and only using it for running faultinjections, and is only being referenced and tested for my final project. Thanks. 
 
