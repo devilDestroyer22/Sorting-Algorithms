@@ -1,3 +1,5 @@
+By: Sree Lalith 
+
 Important! Please read before experimentation.
 
 Selection Sort: It is an algorithm responsible for finding the minimum element within an array and sorting it from the beginning. It is then sorted accordingly and arranged in a particular manner.  
